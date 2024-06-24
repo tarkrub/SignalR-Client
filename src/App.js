@@ -16,13 +16,12 @@ function App() {
                   .build();
 
       conn.on("JoinPrivateChat",(username,msg)=>{
-          console.log("msg:",msg);
+        setMessages(messages=>[...messages,{username,msg}]);
       })  
 
       conn.on("ReceiveMessage",(username,msg) =>{
         setMessages(messages=>[...messages,{username,msg}]);
 
-      
       })
 
       await conn.start();
@@ -46,6 +45,8 @@ function App() {
         console.log(e);
       }
     }
+
+    
 
 
   return (
