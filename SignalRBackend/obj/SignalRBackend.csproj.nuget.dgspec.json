@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\766070\\OneDrive - Seagate Technology\\Documents\\my-signalr-app\\SignalRBackend\\SignalRBackend.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\766070\\OneDrive - Seagate Technology\\Documents\\my-signalr-app\\SignalRBackend\\SignalRBackend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\766070\\OneDrive - Seagate Technology\\Documents\\my-signalr-app\\SignalRBackend\\SignalRBackend.csproj",
+        "projectName": "SignalRBackend",
+        "projectPath": "C:\\Users\\766070\\OneDrive - Seagate Technology\\Documents\\my-signalr-app\\SignalRBackend\\SignalRBackend.csproj",
+        "packagesPath": "C:\\Users\\766070\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\766070\\OneDrive - Seagate Technology\\Documents\\my-signalr-app\\SignalRBackend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\766070\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
